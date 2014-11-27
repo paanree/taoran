@@ -22,6 +22,7 @@ Route::get('users', function()
      $timezone = Config::get('app.timezone', '135246');
 	echo $timezone;
 	echo 123;
+	echo 345;
 
     $users = User::all();
 
